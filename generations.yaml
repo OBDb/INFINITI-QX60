@@ -1,0 +1,12 @@
+references:
+  - "https://en.wikipedia.org/wiki/Infiniti_QX60"
+
+generations:
+  - name: "First Generation (L50)"
+    start_year: 2013
+    end_year: 2020
+    description: "Sold as the JX35 for 2013, on the Nissan Pathfinder's platform with the 3.5 L VQ35 V6 and a CVT; a hybrid was offered from 2014 to 2017."
+  - name: "Second Generation (L51)"
+    start_year: 2022
+    end_year: null
+    description: "Shares its platform with the fifth-generation Pathfinder; the 3.5 L V6 with a nine-speed automatic, and from 2025 a 2.0 L VC-Turbo."
