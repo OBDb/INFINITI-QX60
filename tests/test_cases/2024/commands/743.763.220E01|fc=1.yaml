@@ -1,0 +1,20 @@
+command_id: 743.763.220E01|fc=1
+test_cases:
+- expected_values:
+    QX60_ODO: 40543
+  response: 76306620E01009E5F
+- expected_values:
+    QX60_ODO: 40544
+  response: 76306620E01009E60
+- expected_values:
+    QX60_ODO: 40545
+  response: 76306620E01009E61
+- expected_values:
+    QX60_ODO: 40546
+  response: 76306620E01009E62
+- expected_values:
+    QX60_ODO: 40547
+  response: 76306620E01009E63
+- expected_values:
+    QX60_ODO: 40548
+  response: 76306620E01009E64
