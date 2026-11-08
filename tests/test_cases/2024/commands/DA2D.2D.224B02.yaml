@@ -1,0 +1,32 @@
+command_id: DA2D.2D.224B02
+test_cases:
+- expected_values:
+    QX60_RL_WHL_SPD: 0
+  response: 18DAF12D05624B020000
+- expected_values:
+    QX60_RL_WHL_SPD: 35.04
+  response: 18DAF12D05624B020DB0
+- expected_values:
+    QX60_RL_WHL_SPD: 47.7
+  response: 18DAF12D05624B0212A2
+- expected_values:
+    QX60_RL_WHL_SPD: 59.9
+  response: 18DAF12D05624B021766
+- expected_values:
+    QX60_RL_WHL_SPD: 60.41
+  response: 18DAF12D05624B021799
+- expected_values:
+    QX60_RL_WHL_SPD: 62.38
+  response: 18DAF12D05624B02185E
+- expected_values:
+    QX60_RL_WHL_SPD: 62.43
+  response: 18DAF12D05624B021863
+- expected_values:
+    QX60_RL_WHL_SPD: 63.39
+  response: 18DAF12D05624B0218C3
+- expected_values:
+    QX60_RL_WHL_SPD: 66.6
+  response: 18DAF12D05624B021A04
+- expected_values:
+    QX60_RL_WHL_SPD: 71.38
+  response: 18DAF12D05624B021BE2

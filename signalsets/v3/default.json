@@ -21,35 +21,35 @@
   "signals": [
     {"id": "QX60_MTR_ODO", "path": "Trips", "fmt": {"bix": 56, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, meter group 1", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E01"}, "freq": 30, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E01"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "QX60_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "QX60_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "QX60_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "QX60_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "QX60_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "744", "rax": "764", "dbg": true, "cmd": {"22": "4007"}, "freq": 5,
+{ "hdr": "744", "rax": "764", "cmd": {"22": "4007"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "QX60_AC_STATUS", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Air conditioning status code"}
   ]},
-{ "hdr": "744", "rax": "764", "dbg": true, "cmd": {"22": "4008"}, "freq": 5,
+{ "hdr": "744", "rax": "764", "cmd": {"22": "4008"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "QX60_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "744", "rax": "764", "dbg": true, "cmd": {"22": "F467"}, "freq": 5,
+{ "hdr": "744", "rax": "764", "cmd": {"22": "F467"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "QX60_ECT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 214, "unit": "celsius" }, "name": "Engine coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
@@ -270,19 +270,19 @@
   "signals": [
     {"id": "QX60_TCM_SEL_SOL_MON", "path": "Transmission", "fmt": { "len": 8, "max": 0.255, "div": 1000, "unit": "amps" }, "name": "Select solenoid monitor current"}
   ]},
-{ "hdr": "DA2D", "rax": "2D", "dbg": true, "cmd": {"22": "4B00"}, "freq": 0.25,
+{ "hdr": "DA2D", "rax": "2D", "cmd": {"22": "4B00"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "QX60_FL_WHL_SPD", "path": "Tires", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "DA2D", "rax": "2D", "dbg": true, "cmd": {"22": "4B01"}, "freq": 0.25,
+{ "hdr": "DA2D", "rax": "2D", "cmd": {"22": "4B01"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "QX60_FR_WHL_SPD", "path": "Tires", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "DA2D", "rax": "2D", "dbg": true, "cmd": {"22": "4B02"}, "freq": 0.25,
+{ "hdr": "DA2D", "rax": "2D", "cmd": {"22": "4B02"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "QX60_RL_WHL_SPD", "path": "Tires", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "DA2D", "rax": "2D", "dbg": true, "cmd": {"22": "4B03"}, "freq": 0.25,
+{ "hdr": "DA2D", "rax": "2D", "cmd": {"22": "4B03"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "QX60_RR_WHL_SPD", "path": "Tires", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]}
